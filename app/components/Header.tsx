@@ -11,7 +11,7 @@ export default function Header () {
     return(
        <>
         <div className="flex justify-between items-center p-4 bg-white shadow-md fixed top-0 w-full z-50 ">
-            <h1 className="font-bold text-3xl text-red-600 ml-10"><Link href="/">Pot-au-Feu</Link></h1>
+            <h1 className="font-bold text-3xl text-red-600  md:ml-10"><Link href="/">Pot-au-Feu</Link></h1>
             <div className="flex space-x-10 mr-10 hidden md:block">
                 <Link href="/" className="font-semibold text-red-600 hover:text-black transition-all">Accueil</Link>
                 <Link href="/about"className="font-semibold text-red-600 hover:text-black transition-all">A propos</Link>
