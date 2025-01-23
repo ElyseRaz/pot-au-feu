@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 md:mt-40 md:ml-40 ml-8 mb-10 sm:ml-36'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 md:mt-40 md:ml-40 ml-12 mb-10 sm:ml-36'>
       <div className='h-96 w-96 bg-white rounded-lg shadow-lg shadow-zinc-500  flex flex-col justify-center items-center gap-10 hover:md:scale-125 hover:transition-all motion-preset-pop motion-duration-2000'>
         <img src='dinner.png' alt='icon' className='w-28 h-28' />
         <h2 className='text-3xl italic text-red-600 font-semibold'>Repas</h2>
